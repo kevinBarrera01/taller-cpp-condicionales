@@ -1,7 +1,6 @@
 #include <iostream>
 using namespace std;
 
-// Definición de permisos con bits
 const int LEER = 4;      // 100
 const int ESCRIBIR = 2;  // 010
 const int EJECUTAR = 1;  // 001
