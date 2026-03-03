@@ -12,7 +12,6 @@ int main() {
     cout << "Ingrese el lado 3: ";
     cin >> c;
 
-    // Verificar si forman un triángulo válido
     if (a > 0 && b > 0 && c > 0 && 
         a + b > c && a + c > b && b + c > a) {
 
@@ -28,12 +27,10 @@ int main() {
             cout << "Es un triangulo escaleno." << endl;
         }
 
-        // Clasificación por ángulos
         double a2 = pow(a, 2);
         double b2 = pow(b, 2);
         double c2 = pow(c, 2);
 
-        // Determinar el lado mayor
         if (a >= b && a >= c) {
             if (a2 == b2 + c2) {
                 cout << "Es un triangulo rectangulo." << endl;
